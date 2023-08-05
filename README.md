@@ -5,7 +5,7 @@ The Medical Segmentation Decathlon (MSD - Antonelli et al., 2022) is an internat
 
 This repo contains a .ipynb notebook built to flexibly experiment with different neural networks, data processing and training settings, in the context of this challenge.
 
-For the scope, three libraries from the PyTorch Ecosystem are leveraged: TorchIO was used for data loading, preprocessing and augmentation. MONAI provided network, loss function and metric. 
-Finally, the high-level framework PyTorch Lightning was used for training and data modules.
+For the scope, three libraries from the PyTorch Ecosystem are leveraged: TorchIO is used for data loading, preprocessing and augmentation. MONAI provides network, loss function and metric. 
+Finally, the high-level framework PyTorch Lightning is used for training and data module.
 
 As an exemplary application, UNet is trained on the hippocampus segmentation task.
